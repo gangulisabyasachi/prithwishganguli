@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Prithwish Ganguli | Leading Advocate in Kolkata | Book Consultation | Phone, Chamber & Online Appointments">
+    <meta name="keywords" content="contact advocate Kolkata, book legal consultation Kolkata, lawyer appointment Kolkata, Prithwish Ganguli contact, legal consultation Kolkata, divorce lawyer consultation, criminal lawyer Kolkata contact">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact Prithwish Ganguli - Advocate in Kolkata">
+    <meta property="og:description" content="Get in touch with experienced advocate Prithwish Ganguli in Kolkata. Book phone, chamber, or online legal consultation. Available 7 days a week.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.prithwishganguli.in/contact.html">
+    <title>Contact Advocate Prithwish Ganguli | Kolkata Legal Consultation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link rel="icon" href="images/favicon.jpg" type="image/png" sizes="32x32">
+    <link rel="canonical" href="https://www.prithwishganguli.in/contact.html">
+</head>
+<body>
+<!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Prithwish Ganguli</h1>
+                <p class="nav-subtitle">Advocate</p>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="practice-areas.html" class="nav-link">Practice Areas</a></li>
+                <li><a href="team.html" class="nav-link">Team</a></li>
+                <li><a href="media.html" class="nav-link">Media</a></li>
+                <li><a href="http://blogs.prithwishganguli.in/" class="nav-link" target="_blank">Blogs</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p>We're Here to Help With Your Legal Matters</p>
+        </div>
+    </section>
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+                    <div class="info-block">
+                        <h3>📍 Office Address</h3>
+                        <p>EE 73, 3rd Floor, Salt Lake<br>
+                            Kolkata 700091, West Bengal<br>
+                            Near Water Tank No. 10</p>
+                    </div>
+                    <div class="info-block">
+                        <h3>📞 Phone & Email</h3>
+                        <p><strong>Phone:</strong> <a href="tel:+919903016246">+91 9903016246</a></p>
+                        <p><strong>Email:</strong> <a
+                                href="mailto:prithwishganguli@gmail.com">prithwishganguli@gmail.com</a></p>
+                        <p><strong>WhatsApp:</strong> <a href="https://wa.me/9903016246" target="_blank"
+                                rel="noopener noreferrer">+91 9903016246</a></p>
+                    </div>
+                    <div class="info-block">
+                        <h3>⏰ Consultation Hours</h3>
+                        <p><strong>Monday - Friday:</strong><br>6:00 PM - 9:00 PM</p>
+                        <p><strong>Sunday:</strong><br>10:00 AM - 1:00 PM<br>6:00 PM - 9:00 PM</p>
+                        <p><strong>Online (Zoom/Phone):</strong><br>Daily 10:00 PM - 11:30 PM</p>
+                    </div>
+                </div>
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required maxlength="100"
+                                placeholder="Your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required maxlength="100"
+                                placeholder="your@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Mobile Number *</label>
+                            <input type="tel" id="phone" name="phone" required maxlength="20"
+                                placeholder="+91 XXXXX XXXXX">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required maxlength="100"
+                                placeholder="What is this about?">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required maxlength="1000"
+                                placeholder="Tell us more about your legal matter..."></textarea>
+                        </div>
+                        <!-- CAPTCHA verification section -->
+                        <div class="form-group captcha-group">
+                            <label>Verify you're human *</label>
+                            <div class="captcha-container">
+                                <div class="captcha-question">
+                                    <span id="captchaNum1">0</span> + <span id="captchaNum2">0</span> = ?
+                                </div>
+                                <input type="number" id="captchaAnswer" name="captchaAnswer" required
+                                    placeholder="Enter the answer" maxlength="3">
+                                <input type="hidden" id="captchaCorrect" value="">
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <p class="form-note" id="formNote"></p>
+                    </form>
+                </div>
+            </div>
+            <!-- Digital Payment Section -->
+            <div class="payment-section">
+                <h2>Digital Payment Options</h2>
+                <p class="payment-subtitle">Choose your preferred payment method for consultation fees or legal services
+                </p>
+                <div class="razorpay-buttons-grid">
+                    <div class="razorpay-button-wrapper">
+                        <button class="razorpay-payment-btn" onclick="openPaymentLink('quick')">
+                            <span class="payment-icon">💳</span>
+                            <span class="payment-label">Phone Consultation</span>
+                            <span class="payment-amount">₹1,000</span>
+                        </button>
+                        <p class="payment-desc">45-minute consultation</p>
+                    </div>
+                    <div class="razorpay-button-wrapper">
+                        <button class="razorpay-payment-btn" onclick="openPaymentLink('standard')">
+                            <span class="payment-icon">📋</span>
+                            <span class="payment-label">Chamber Consultation</span>
+                            <span class="payment-amount">₹1,200</span>
+                        </button>
+                        <p class="payment-desc">45-minute consultation</p>
+                    </div>
+                    <div class="razorpay-button-wrapper">
+                        <button class="razorpay-payment-btn" onclick="openPaymentLink('premium')">
+                            <span class="payment-icon">⭐</span>
+                            <span class="payment-label">Sunday Evening Consultation</span>
+                            <span class="payment-amount">₹2,500</span>
+                        </button>
+                        <p class="payment-desc">45-minute consultation</p>
+                    </div>
+                </div>
+                <!-- <div class="qr-payment-section">
+                    <h3>Or Scan QR Code to Pay</h3>
+                    <img src="images/qr.jpeg" alt="Payment QR Code" class="qr-code" loading="lazy">
+                </div> -->
+            </div>
+            <!-- Map -->
+            <div class="map-container">
+                <h2>Our Location</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.776046439676!2d88.42448632928466!3d22.581197263899256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275b89a85a031%3A0x9699895f1f4df277!2sPrithwish+Ganguli+Advocate!5e0!3m2!1sen!2sin!4v1507567673376"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <p>Expert legal services in Kolkata with 25+ years of experience across multiple practice areas.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="practice-areas.html">Practice Areas</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="media.html">Media</a></li>
+                        <li><a href="http://blogs.prithwishganguli.in/" target="_blank">Blogs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Phone: <a href="tel:+919903016246">+91 9903016246</a></p>
+                    <p>Email: <a href="mailto:prithwishganguli@gmail.com">prithwishganguli@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Prithwish Ganguli. All rights reserved. | Secure & Professional Legal Services</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
